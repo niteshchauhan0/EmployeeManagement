@@ -1,0 +1,9 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <!-- NO servlet-mapping needed here for RegisterServlet -->
+</web-app>
